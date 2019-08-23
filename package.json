@@ -1,0 +1,39 @@
+{
+  "name": "ts-preact-template",
+  "version": "0.0.1",
+  "description": "ts-preact template",
+  "keywords": [],
+  "author": "pa001024",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack -p --mode production"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-rc.1",
+    "react-hot-loader": "^4.12.11",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^4.1.18",
+    "babel-loader": "^8.0.6",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.2",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^1.4.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  }
+}
